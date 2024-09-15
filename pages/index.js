@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import Layout from '../components/Layout';
 import About from '../components/About';
 import Projects from '../components/Projects';
@@ -14,7 +14,7 @@ export default function Home() {
   const [showRoles, setShowRoles] = useState(false);
   const [greetingComplete, setGreetingComplete] = useState(false);
 
-  const handleRoleClick = (role) => {
+  const handleRoleClick = useCallback((role) => {
     if (selectedRole === role) {
       setSelectedRole(null);
       setPhotoVisible(true);
@@ -22,7 +22,7 @@ export default function Home() {
       setSelectedRole(role);
       setPhotoVisible(false);
     }
-  };
+  }, [selectedRole]);
 
   const handleGreetingComplete = () => {
     setGreetingComplete(true);

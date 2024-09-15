@@ -27,7 +27,7 @@ const RoleInfo = ({ role, isActive }) => {
             rel="noopener noreferrer" 
             className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out hover:from-purple-500 hover:to-blue-500 hover:scale-105 shadow-lg"
           >
-            Explore Luís Fortes' Detailed CV 📄
+            Explore Luís Fortes&apos; Detailed CV 📄
           </Link>
         </div>
       </div>

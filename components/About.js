@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 
 export default function About() {
@@ -8,7 +7,7 @@ export default function About() {
         <div className="w-2/3">
           <h1 className="text-6xl font-bold mb-8 text-center">about me.</h1>
           <p className="mb-4 text-justify">
-            I hold an MSc in Biological Engineering and have spent the past few years as a Process Engineer, focusing on process optimization with a strong skill set in project management and data analysis. Over the last two years, I've been traveling around the world, to help continuous combustion industries enhancing process efficiency through hydrogen injection and data-driven analysis.
+            I hold an MSc in Biological Engineering and have spent the past few years as a Process Engineer, focusing on process optimization with a strong skill set in project management and data analysis. Over the last two years, I&apos;ve been traveling around the world, to help continuous combustion industries enhancing process efficiency through hydrogen injection and data-driven analysis.
           </p>
           <p className="mb-4 text-justify">
             I’ve always had a passion for technology and engineering, sparked by a love for video games and computers early on. Even though I didn’t pursue computer science at first, I believe it's never too late to follow that path. Now, my goal is to keep improving my skills, work with talented people, and contribute to projects that align with my passion and career aspirations.
