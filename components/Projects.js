@@ -23,36 +23,27 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Luís Fortes Portfolio",
+      title: "My Portfolio",
       description: "My personal portfolio ",
       techStack: ['react', 'nextjs', 'tailwindcss', 'node'],
-      imageSrc: "/images/project3.jpg",
-      githubUrl: "https://github.com/yourusername/project3"
+      imageSrc: "/images/proj1.png",
+      githubUrl: "https://github.com/0xfortes/Personal-CV"
     },
 
     {
       title: "RDgdp",
-      description: "EU Countries R&D Investment as a Percentage of GDP",
+      description: "Countries R&D Investment as a Percentage of GDP",
       techStack: ['react', 'django', 'postg'],
-      imageSrc: "/images/project1.jpg",
-      githubUrl: "https://github.com/0xfortes/RDgdp"
+      imageSrc: "/images/proj2.png",
+      githubUrl: "https://github.com/0xfortes/R-Dgdp"
     },
     {
       title: "Odin Project",
       description: "Projects built while doing Odin Project Web Dev Course ",
       techStack: ['html5', 'css', 'js', 'node'],
-      imageSrc: "/images/project2.jpg",
+      imageSrc: "/images/proj3.png",
       githubUrl: "https://github.com/0xfortes/Odin-Curriculum"
     },
-
-    {
-      title: "Teacher",
-      description: "Short description of Project 4",
-      techStack: ['react', 'django', 'postg'],
-      imageSrc: "/images/project4.jpg",
-      githubUrl: "https://github.com/yourusername/project4"
-    },
-
   ];
 
   const visibleProjects = showAll ? projects : projects.slice(0, 3);

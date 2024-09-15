@@ -15,14 +15,14 @@ const RoleInfo = ({ role, isActive }) => {
       <div className={infoStyles}>
         <div className="flex flex-col justify-center items-center text-center space-y-6">
           <p className="text-xl leading-relaxed">
-            Curious about my journey as a <span className="font-bold text-blue-400">Biological Engineer</span>? 🧬🔬
+            Curious about my journey as a <span className="font-bold">Biological Engineer</span>? 
           </p>
           <p className="text-lg leading-relaxed">
-            From <span className="font-semibold text-yellow-300">lab experiments</span> to <span className="font-semibold text-green-300">innovative solutions</span>, 
-            my path might lead to <span className="font-bold text-red-400">exciting collaborations</span>! 🚀
+            From <span className="font-regular">lab experiments</span> to <span className="font-regular">innovative solutions</span>, 
+            my path might lead to <span className="font-regular">exciting collaborations</span>! 
           </p>
           <Link 
-            href="https://github.com/0xfortes/CV" 
+            href="https://github.com/0xfortes/Personal-CV/blob/main/CV_Luis%20Fortes.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out hover:from-purple-500 hover:to-blue-500 hover:scale-105 shadow-lg"
@@ -41,37 +41,37 @@ const RoleInfo = ({ role, isActive }) => {
         <div className="space-y-12">
           {[
             {
-              date: "2023 - Present",
+              date: "Currently Enrolled",
               title: "Cyfrin Updraft",
               subtitle: "Solidity Smart Contract Development",
               description: "Currently enrolled in this comprehensive course focused on blockchain development and smart contract development using Solidity."
             },
             {
-              date: "2023 - Present",
+              date: "Currently Enrolled",
               title: "Machine Learning Specialization",
               subtitle: "by Andrew Ng",
               description: "Expanding my knowledge in machine learning through this in-depth specialization course."
             },
             {
-              date: "2008 - 2016",
+              date: "2023 - Present",
               title: "The Odin Project",
               subtitle: "FullStack Web Development",
-              description: "Worked with front-end technologies like HTML, CSS, JavaScript, and React, along with back-end tools such as Node.js, Express, and various database management systems."
+              description: "Worked with front-end technologies like HTML, CSS, JavaScript, and React, along with back-end tools such as Node.js, Express, and RDBMS"
             },
             {
-              date: "2017 - 2018",
+              date: "2023 - 2023",
               title: "IBM Professional Certificate",
               subtitle: "Data Science",
               description: "Developed skills in data analysis, machine learning, and data visualization using Python, Pandas, and Scikit-learn. Completed real-world projects covering data wrangling, statistics, SQL, and data-driven decision-making."
             },
             {
-              date: "2019 - 2020",
+              date: "2022 - 2022",
               title: "HarvardX CS50",
               subtitle: "Intro to Computer Science",
               description: "Gained a introductory foundations in computer science concepts, including algorithms, data structures, and memory management. Focused on problem-solving and programming in C, Python, SQL, and JavaScript."
             },
             {
-              date: "2019 - 2020",
+              date: "2022 - 2022",
               title: "CryptoZombies",
               subtitle: "Solidity: Beginner to Intermediate Smart Contracts",
               description: "Learned to build decentralized applications (DApps) and smart contracts using Solidity. Covered topics such as Ethereum, contract deployment, and token creation through gamified learning."
