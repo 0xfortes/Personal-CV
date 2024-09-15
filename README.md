@@ -1,6 +1,4 @@
-# Personal-CV
+# Personal-CV & Web Portfolio
 
 ## Overview
-This repository hosts:  
-My latest professional Curriculum Vitae (CV)  
-My Web Portfolio
+This repository hosts my latest professional Curriculum Vitae (CV) and my web portfolio.
