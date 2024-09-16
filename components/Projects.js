@@ -26,7 +26,7 @@ const Projects = () => {
       title: "My Portfolio",
       description: "My personal portfolio ",
       techStack: ['react', 'nextjs', 'tailwindcss', 'node'],
-      imageSrc: "../images/proj1.jpg",
+      imageSrc: "/images/proj1.jpg",
       githubUrl: "https://github.com/0xfortes/Personal-CV"
     },
 
