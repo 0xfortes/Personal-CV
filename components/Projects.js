@@ -34,14 +34,14 @@ const Projects = () => {
       title: "RDgdp",
       description: "Countries R&D Investment as a Percentage of GDP",
       techStack: ['react', 'django', 'postg'],
-      imageSrc: "../images/proj2.jpg",
+      imageSrc: "/images/proj2.jpg",
       githubUrl: "https://github.com/0xfortes/R-Dgdp"
     },
     {
       title: "Odin Project",
       description: "Projects built while doing Odin Project Web Dev Course ",
       techStack: ['html5', 'css', 'js', 'node'],
-      imageSrc: "../images/proj3.jpg",
+      imageSrc: "/images/proj3.jpg",
       githubUrl: "https://github.com/0xfortes/Odin-Curriculum"
     },
   ];
