@@ -31,6 +31,14 @@ const Projects = () => {
     },
 
     {
+      title: "GPTrainer",
+      description: "Workout generator leveraging OpenAI API",
+      techStack: ['react', 'css', 'nodejs', 'nextjs'],
+      imageSrc: "/Images/proj4.jpg",
+      githubUrl: "https://github.com/0xfortes/GPTrainer"
+    },
+
+    {
       title: "RDgdp",
       description: "Countries R&D Investment as a Percentage of GDP",
       techStack: ['react', 'django', 'postgresql'],
@@ -44,6 +52,7 @@ const Projects = () => {
       imageSrc: "/Images/proj3.jpg",
       githubUrl: "https://github.com/0xfortes/Odin-Curriculum"
     },
+
   ];
 
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
