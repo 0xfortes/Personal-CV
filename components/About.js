@@ -16,7 +16,7 @@ export default function About() {
             Outside of work, I mostly enjoy surfing and reading.
           </p>
           <p className="mt-4">
-            If you think I&apos;d be a good fit to be on your team, or if there isn&apos;t an opportunity right now but you&apos;d still like to connect — maybe even join me for a surf session — Let&apos;s connect!
+            If you think I&apos;d be a good fit for your team, or if there isn&apos;t an opportunity right now but you&apos;d still like to connect — perhaps even join me for a surf session — Let&apos;s connect!
           </p>
 
           <div className="mt-24"> 
