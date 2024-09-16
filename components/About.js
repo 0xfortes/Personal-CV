@@ -22,16 +22,16 @@ export default function About() {
           <div className="mt-24"> 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <SkillCategory title="<coding skills/>" icons={[
-                'html5', 'css', 'js', 'python'
+                'Html5', 'Css', 'JavaScript', 'Python'
               ]} />
               <SkillCategory title="{frameworks}" icons={[
-                'react', 'node', 'nextjs', 'django'
+                'React', 'NodeJs', 'NextJs', 'Django'
               ]} />
               <SkillCategory title="[developer tools]" icons={[
-                'git', 'github', 'postg'
+                'Git', 'Github', 'PostgreSQL'
               ]} />
               <SkillCategory title="/libraries/" icons={[
-                'pandas', 'numpy', 'matplotlib', 'scikit'
+                'Pandas', 'Numpy', 'Matplotlib', 'Scikit-Learn'
               ]} />
             </div>
           </div>
@@ -56,13 +56,16 @@ function SkillCategory({ title, icons = [] }) {
       </h3>
       <div className="grid grid-cols-3 gap-4">
         {icons.map((icon, index) => (
-          <div key={index} className="w-12 h-12 flex items-center justify-center bg-white rounded-full p-2">
+          <div key={index} className="w-12 h-12 flex items-center justify-center bg-white rounded-full p-2 group relative">
             <Image
               src={`/icons/${icon}.svg`}
               alt={icon}
               width={32}
               height={32}
             />
+            <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {icon}
+            </span>
           </div>
         ))}
       </div>
