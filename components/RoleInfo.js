@@ -22,7 +22,7 @@ const RoleInfo = ({ role, isActive }) => {
             my path might lead to <span className="font-regular">exciting collaborations</span>! 
           </p>
           <Link 
-            href="https://github.com/0xfortes/Personal-CV/blob/main/CV_Luis%20Fortes.pdf" 
+            href="https://github.com/0xfortes/Personal-CV/blob/main/assets/CV_Luis%20Fortes.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out hover:from-purple-500 hover:to-blue-500 hover:scale-105 shadow-lg"
