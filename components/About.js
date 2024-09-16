@@ -22,16 +22,16 @@ export default function About() {
           <div className="mt-24"> 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <SkillCategory title="<coding skills/>" icons={[
-                'Html5', 'Css', 'JavaScript', 'Python'
+                'html5', 'css', 'javascript', 'python'
               ]} />
               <SkillCategory title="{frameworks}" icons={[
-                'React', 'NodeJs', 'NextJs', 'Django', 'Tailwindcss'
+                'react', 'nodejs', 'nextjs', 'django', 'tailwindcss'
               ]} />
               <SkillCategory title="[developer tools]" icons={[
-                'Git', 'Github', 'PostgreSQL'
+                'git', 'github', 'postgresql'
               ]} />
               <SkillCategory title="/libraries/" icons={[
-                'Pandas', 'NumPy', 'Matplotlib', 'Scikit-Learn'
+                'pandas', 'numpy', 'matplotlib', 'scikitlearn'
               ]} />
             </div>
           </div>
