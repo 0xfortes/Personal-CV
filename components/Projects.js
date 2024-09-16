@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: "My Portfolio",
       description: "My personal portfolio ",
-      techStack: ['react', 'nextjs', 'tailwindcss', 'node'],
+      techStack: ['react', 'nextjs', 'tailwindcss', 'nodejs'],
       imageSrc: "/Images/proj1.jpg",
       githubUrl: "https://github.com/0xfortes/Personal-CV"
     },
@@ -33,14 +33,14 @@ const Projects = () => {
     {
       title: "RDgdp",
       description: "Countries R&D Investment as a Percentage of GDP",
-      techStack: ['react', 'django', 'postg'],
+      techStack: ['react', 'django', 'postgresql'],
       imageSrc: "/Images/proj2.jpg",
       githubUrl: "https://github.com/0xfortes/R-Dgdp"
     },
     {
       title: "Odin Project",
       description: "Projects built while doing Odin Project Web Dev Course ",
-      techStack: ['html5', 'css', 'js', 'node'],
+      techStack: ['html5', 'css', 'javascript', 'nodejs'],
       imageSrc: "/Images/proj3.jpg",
       githubUrl: "https://github.com/0xfortes/Odin-Curriculum"
     },
