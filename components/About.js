@@ -25,13 +25,13 @@ export default function About() {
                 'Html5', 'Css', 'JavaScript', 'Python'
               ]} />
               <SkillCategory title="{frameworks}" icons={[
-                'React', 'NodeJs', 'NextJs', 'Django'
+                'React', 'NodeJs', 'NextJs', 'Django', 'Tailwindcss'
               ]} />
               <SkillCategory title="[developer tools]" icons={[
                 'Git', 'Github', 'PostgreSQL'
               ]} />
               <SkillCategory title="/libraries/" icons={[
-                'Pandas', 'Numpy', 'Matplotlib', 'Scikit-Learn'
+                'Pandas', 'NumPy', 'Matplotlib', 'Scikit-Learn'
               ]} />
             </div>
           </div>
