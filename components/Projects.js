@@ -60,6 +60,7 @@ const Projects = () => {
                   <TechStack icons={project.techStack} />
                 </div>
                 <Image
+                  loader={imageLoader}
                   src={project.imageSrc}
                   alt={project.title}
                   width={400}
