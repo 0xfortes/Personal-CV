@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Header from './Header';
 import ParticleBackground from './ParticleBackground';
 
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <Header />
       <main className="pt-16 relative z-10">
         {children}
+        <SpeedInsights />
       </main>
     </div>
   );
