@@ -13,6 +13,7 @@ export default function Home() {
   const [photoVisible, setPhotoVisible] = useState(true);
   const [showRoles, setShowRoles] = useState(false);
   const [greetingComplete, setGreetingComplete] = useState(false);
+  const [startAnimation, setStartAnimation] = useState(false);
 
   const handleRoleClick = useCallback((role) => {
     if (selectedRole === role) {
@@ -82,20 +83,29 @@ export default function Home() {
 
   return (
     <Layout>
-      <section id="home" className="min-h-screen flex flex-col justify-between items-start text-left px-4 sm:px-8 md:px-16">
-        <div className="pt-8 sm:pt-12 md:pt-16 pl-0 sm:pl-8 md:pl-4 lg:pl-22">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-2">
-            <AnimatedText text="Hi!" showCursor={false} />
-          </h1>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">
-            <AnimatedText text="I am Luis Fortes." delay={500} onComplete={handleGreetingComplete} showCursor={true} />
-          </h1>
-        </div>
-        {greetingComplete && rolesSection}
-      </section>
-      <About />
-      <Projects />
-      <Contact />
+      {({ isLoading }) => (
+        <>
+          <section id="home" className="min-h-screen flex flex-col justify-between items-start text-left px-4 sm:px-8 md:px-16">
+            {!isLoading && !startAnimation && setTimeout(() => setStartAnimation(true), 100)}
+            <div className="pt-8 sm:pt-12 md:pt-16 pl-0 sm:pl-8 md:pl-4 lg:pl-22">
+              {startAnimation && (
+                <>
+                  <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-2">
+                    <AnimatedText text="Hi!" showCursor={false} />
+                  </h1>
+                  <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">
+                    <AnimatedText text="I am Luis Fortes." delay={500} onComplete={handleGreetingComplete} showCursor={true} />
+                  </h1>
+                </>
+              )}
+            </div>
+            {greetingComplete && rolesSection}
+          </section>
+          <About />
+          <Projects />
+          <Contact />
+        </>
+      )}
     </Layout>
   );
 }
