@@ -16,8 +16,8 @@ const Layout = ({ children }) => {
       <Header />
       <main className="pt-16 relative z-10">
         {children}
-        <SpeedInsights />
       </main>
+      <SpeedInsights />
     </div>
   );
 };
