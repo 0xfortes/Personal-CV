@@ -17,17 +17,13 @@ const RoleInfo = ({ role, isActive }) => {
           <p className="text-xl leading-relaxed">
             Curious about my journey as a <span className="font-bold">Biological Engineer</span>? 
           </p>
-          <p className="text-lg leading-relaxed">
-            From <span className="font-regular">lab experiments</span> to <span className="font-regular">innovative solutions</span>, 
-            my path might lead to <span className="font-regular">exciting collaborations</span>! 
-          </p>
           <Link 
             href="https://github.com/0xfortes/Personal-CV/blob/main/assets/CV_Luis%20Fortes.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out hover:from-purple-500 hover:to-blue-500 hover:scale-105 shadow-lg"
+            className="bg-gray-800 bg-opacity-50 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out hover:bg-opacity-70 shadow-lg"
           >
-            Explore Luís Fortes&apos; Detailed CV 📄
+            Luís Fortes&apos; Detailed CV 📄
           </Link>
         </div>
       </div>
@@ -35,7 +31,7 @@ const RoleInfo = ({ role, isActive }) => {
 
     const developerInfo = (
       <div className={infoStyles}>
-        <h2 className="text-2xl text-center font-bold mb-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text animate-gradient">
+        <h2 className="text-2xl text-center font-bold mb-8 text-white">
           My Learning Journey
         </h2>
         <div className="space-y-12">
