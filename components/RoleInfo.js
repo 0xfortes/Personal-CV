@@ -39,10 +39,12 @@ const RoleInfo = ({ role, isActive }) => {
             {
               date: "Currently Enrolled",
               title: "Cyfrin Updraft",
-              subtitle: "Blockchain Basics - Completed",
-              subtitle: "Solidity Smart Contract Development - Completed",
-              subtitle: "Foundry Fundamentals - Completed",
-              subtitle: "Advanced Foundry - Enrolled",
+              subtitle: [
+                "Blockchain Basics - Completed",
+                "Solidity Smart Contract Development - Completed",
+                "Foundry Fundamentals - Completed",
+                "Advanced Foundry - Enrolled"
+              ]
             },
             {
               date: "Currently Enrolled",
