@@ -43,7 +43,7 @@ const RoleInfo = ({ role, isActive }) => {
                 "Blockchain Basics - Completed",
                 "Solidity Smart Contract Development - Completed",
                 "Foundry Fundamentals - Completed",
-                "Advanced Foundry - Enrolled"
+                "Advanced Foundry"
               ]
             },
             {
