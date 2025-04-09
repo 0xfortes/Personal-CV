@@ -82,7 +82,7 @@ const RoleInfo = ({ role, isActive }) => {
                 <h3 className="text-xl font-semibold">{course.title}</h3>
                 <span className="text-sm text-gray-400">{course.date}</span>
               </div>
-              <div className="text-lg text-gray-300 mb-2">
+              <div className="text-sm text-gray-300 mb-2">
                 {Array.isArray(course.subtitle)
                   ? course.subtitle.map((item, i) => <div key={i}>{item}</div>)
                   : course.subtitle}
