@@ -83,9 +83,18 @@ const RoleInfo = ({ role, isActive }) => {
                 <span className="text-sm text-gray-400">{course.date}</span>
               </div>
               <div className="text-sm text-gray-300 mb-2">
-                {Array.isArray(course.subtitle)
-                  ? course.subtitle.map((item, i) => <div key={i}>{item}</div>)
-                  : course.subtitle}
+              {Array.isArray(course.subtitle)
+                ? course.subtitle.map((item, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      {item.toLowerCase().includes("completed") ? (
+                        <span className="text-green-400">✅</span>
+                      ) : (
+                        <span className="text-yellow-400">⏳</span> 
+                      )}
+                      <span>{item.replace(" - Completed", "")}</span>
+                    </div>
+                  ))
+                : course.subtitle}
               </div>
               <p className="text-sm text-gray-400">{course.description}</p>
             </div>
