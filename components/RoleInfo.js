@@ -39,14 +39,16 @@ const RoleInfo = ({ role, isActive }) => {
             {
               date: "Currently Enrolled",
               title: "Cyfrin Updraft",
-              subtitle: "Solidity Smart Contract Development",
-              description: "Currently enrolled in this comprehensive course focused on blockchain development and smart contract development using Solidity."
+              subtitle: "Blockchain Basics - Completed",
+              subtitle: "Solidity Smart Contract Development - Completed",
+              subtitle: "Foundry Fundamentals - Completed",
+              subtitle: "Advanced Foundry - Enrolled",
             },
             {
               date: "Currently Enrolled",
               title: "Machine Learning Specialization",
               subtitle: "by Andrew Ng",
-              description: "Expanding my knowledge in machine learning through this in-depth specialization course."
+              description: "Expanding my knowledge in machine learning through this specialization course."
             },
             {
               date: "2023 - 2025",
