@@ -15,7 +15,7 @@ const RoleInfo = ({ role, isActive }) => {
       <div className={infoStyles}>
         <div className="flex flex-col justify-center items-center text-center space-y-6">
           <p className="text-xl leading-relaxed">
-            Curious about my journey as a <span className="font-bold">Biological Engineer</span>? 
+            Curious about my journey as an <span className="font-bold">Engineer</span>? 
           </p>
           <Link 
             href="https://github.com/0xfortes/Personal-CV/blob/main/assets/CV_Luis%20Fortes.pdf" 
@@ -49,7 +49,7 @@ const RoleInfo = ({ role, isActive }) => {
               description: "Expanding my knowledge in machine learning through this in-depth specialization course."
             },
             {
-              date: "2023 - Present",
+              date: "2023 - 2025",
               title: "The Odin Project",
               subtitle: "FullStack Web Development",
               description: "Worked with front-end technologies like HTML, CSS, JavaScript, and React, along with back-end tools such as Node.js, Express, and RDBMS"

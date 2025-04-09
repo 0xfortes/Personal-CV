@@ -10,13 +10,10 @@ export default function About() {
             I hold an MSc in Biological Engineering and have spent the past few years as a Process Engineer, focusing on process optimization with a strong skill set in project management and data analysis. Over the last two years, I&apos;ve been traveling around the world, to help continuous combustion industries enhancing process efficiency through hydrogen injection and data-driven analysis.
           </p>
           <p className="mb-4 text-justify">
-            I&apos;ve always had a passion for technology and engineering, sparked by a love for video games and computers early on. Even though I didn&apos;t pursue computer science at first, I believe it&apos;s never too late to follow that path. Now, my goal is to keep improving my skills, work with talented people, and contribute to projects that align with my passion and career aspirations.
+            My goal is to keep improving, work with talented people, and contribute to projects that align with my passion and career aspirations.
           </p>
           <p className="text-justify">
-            Outside of work, I mostly enjoy surfing and reading.
-          </p>
-          <p className="mt-4">
-            If you think I&apos;d be a good fit for your team, or if there isn&apos;t an opportunity right now but you&apos;d still like to connect — perhaps even join me for a surf session — Let&apos;s connect!
+            Outside of work, You&apos;ll find me surfing or playing golf.
           </p>
 
           <div className="mt-24"> 
